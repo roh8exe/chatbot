@@ -4,7 +4,7 @@ import "react-transliterate/dist/index.css";
 
 const App = () => {
   const [text, setText] = useState("");
-  const [lang, setLang] = useState("en"); // Default language is Hindi
+  const [lang, setLang] = useState("en"); // Default language is english
 
   return (
     <div>
